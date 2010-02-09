@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>"${TM_BUNDLE_SUPPORT}/uncrustify" -q -c "${TM_BUNDLE_SUPPORT}/uncrustify.cfg" -f "${TM_FILEPATH}"</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^~@u</string>
+	<key>name</key>
+	<string>Apply Style</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>scope</key>
+	<string>source</string>
+	<key>uuid</key>
+	<string>FEE13FB8-DE4C-4195-85DB-54AB9DEA5C91</string>
+</dict>
+</plist>

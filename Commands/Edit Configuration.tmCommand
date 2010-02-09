@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>/usr/bin/env mate "${TM_BUNDLE_SUPPORT}/uncrustify.cfg"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>Edit Configuration</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>DA61FE7C-98CE-4C2E-B61F-5D470794A898</string>
+</dict>
+</plist>
